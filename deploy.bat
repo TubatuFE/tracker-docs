@@ -1,5 +1,5 @@
-rm -rf _book
-# gitbook install
+rd /s /q _book
+:: gitbook install
 gitbook build
 cd _book
 git init
