@@ -4,5 +4,16 @@
   "author": "ken.li",
   "isbn": "",
   "language": "zh-hans",
-  "gitbook": "3.2.3"
+  "gitbook": "3.2.3",
+  "plugins": ["prism", "-highlight"],
+  "pluginsConfig": {
+    "prism": {
+      "lang": {
+        "flow": "typescript"
+      },
+      "css": [
+        "prismjs/themes/prism-okaidia.css"
+      ]
+    }
+  }
 }
